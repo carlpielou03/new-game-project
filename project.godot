@@ -12,5 +12,6 @@ config_version=5
 
 config/name="Test Project"
 config/description="Just a testing project"
+run/main_scene="uid://clv5f5nunx8f7"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
