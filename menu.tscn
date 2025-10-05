@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2b5fii8sbdrq"]
+
+[ext_resource type="Script" uid="uid://ctq2rtxkalanh" path="res://Scripts/button.gd" id="1_lti8b"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Window" type="Window" parent="."]
+oversampling_override = 1.0
+
+[node name="Button" type="Button" parent="Window"]
+offset_left = 583.0
+offset_top = 421.0
+offset_right = 976.0
+offset_bottom = 653.0
+text = "CLICK ME"
+script = ExtResource("1_lti8b")
